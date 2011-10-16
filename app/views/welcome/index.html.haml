@@ -1,0 +1,21 @@
+.left{ :style => 'width: 50%' }
+  = image_tag 'farmer.png'
+.left
+  - unless user_signed_in?
+    .links
+      = link_to(new_user_registration_path, :class => 'button') do
+        = image_tag 'new_account.png'
+      %br
+      = link_to(new_user_session_path, :class => 'button') do
+        = image_tag 'login.png'
+  - else
+    %strong Twoje pola
+    - if current_user.fields.empty?
+      %p Nie masz żadnego pola. #{link_to 'Utwórz pole', new_field_path}
+    - else
+      %ul
+        - current_user.fields.all.each do |field|
+          %li
+            = link_to field.name, field
+            %span.village #{link_to field.village.name, field.village if field.village.present? }
+      = link_to 'Dodaj pole', new_field_path

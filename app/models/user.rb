@@ -16,4 +16,6 @@ class User < ActiveRecord::Base
   validates_confirmation_of :password
   validates_presence_of :password
 
+  has_many :fields, :dependent => :destroy
+
 end

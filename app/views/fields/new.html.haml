@@ -1,0 +1,4 @@
+= form_for @field do |f|
+  = f.text_field :name
+  = f.select :village_id, Village.all.map { |v| [v.name, v.id] }
+  = f.submit 'Utwórz pole'

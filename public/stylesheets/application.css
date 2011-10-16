@@ -1,6 +1,8 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: Verdana;
+    font-size: 14px;
 }
 
 a {
@@ -14,16 +16,27 @@ a {
     margin: 0 auto;
 }
 
-#page #top #head {
+#page #top #head a {
     font-size: 35px;
     font-family: Georgia, Verdana;
+    text-decoration: none;
+    color: #999;
 }
 
 #page #links {
     text-align: right;
 }
 
-#head a {
-    text-decoration: none;
-    color: #999;
+
+.left {
+    float: left;
+}
+
+.clear {
+    both: clear;
+}
+
+.links {
+    margin-top: 130px;
+    text-align: center;
 }
