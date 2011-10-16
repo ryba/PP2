@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #0000ff;
+    font-family: Verdana;
+}
+
+#page {
+    width: 750px;
+    margin: 0 auto;
+}
+
+#page #top #head {
+    font-size: 35px;
+    font-family: Georgia, Verdana;
+}
+
+#page #links {
+    text-align: right;
+}
+
+#head a {
+    text-decoration: none;
+    color: #999;
+}
