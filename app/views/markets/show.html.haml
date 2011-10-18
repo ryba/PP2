@@ -1,0 +1,11 @@
+%h1 Targ
+
+%p
+  = link_to 'Wystaw na targ'
+
+%table.equipments
+  - 100.times do
+    %tr
+      %td= Forgery(:lorem_ipsum).words(5, :random => true)
+      %td= Forgery(:monetary).formatted_money :min => 100, :max => 1000
+      %td= link_to 'Kup'

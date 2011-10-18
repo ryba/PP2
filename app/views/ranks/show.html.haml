@@ -1,0 +1,8 @@
+%h1 Ranking
+
+%table
+  - 32.times do |i|
+    %tr
+      %td #{i+1}.
+      %td= Forgery(:name).full_name
+      %td= 32-i

@@ -16,6 +16,20 @@
       %ul
         - current_user.fields.all.each do |field|
           %li
-            = link_to field.name, field
-            %span.village #{link_to field.village.name, field.village if field.village.present? }
+            = link_to field.name, [field.village, field]
+            %small.village #{field.village.name if field.village.present? }
+            (#{rand(100)} roślin)
       = link_to 'Dodaj pole', new_field_path
+    %p
+      %strong Twój budżet
+      = current_user.budget
+      %br
+      %strong Liczba punktów
+      120.0
+
+    %strong Lista roślin
+    %ul
+      - 8.times do
+        %li
+          = Forgery(:lorem_ipsum).words(3, :random => true)
+          %small x #{rand(10)}

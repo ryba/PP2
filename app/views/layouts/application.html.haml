@@ -14,7 +14,15 @@
             - unless user_signed_in?
               = link_to 'Login', new_user_session_path
             - else
+              = current_user.login
+              &middot;
+              = link_to 'Ranking', rank_path
+              &middot;
+              = link_to 'Targ', market_path
+              &middot;
               = link_to 'Wioski', villages_path
+              &middot;
+              = link_to 'Przedmioty', equipments_path
               &middot;
               = link_to 'Edytuj', edit_user_registration_path
               &middot;

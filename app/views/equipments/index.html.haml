@@ -1,0 +1,9 @@
+%h1 Przedmioty
+
+%table
+  - 22.times do
+    %tr
+      %td
+        = Forgery(:lorem_ipsum).words(2, :random => true)
+      %td
+        = rand(10)

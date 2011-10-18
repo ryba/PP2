@@ -1,8 +1,13 @@
 Farmer::Application.routes.draw do
   devise_for :users
 
+  resource :rank
+  resource :market
+  resources :equipments
   resources :fields
-  resources :villages
+  resources :villages do
+    resources :fields
+  end
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

@@ -5,5 +5,6 @@ class VillagesController < UserApplicationController
 
   def show
     @village = Village.find_by_slug!(params[:id])
+    @fields = @village.fields
   end
 end

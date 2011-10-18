@@ -1,0 +1,6 @@
+%h1= @village.name
+.fields
+  - @fields.each do |field|
+    .field
+      = link_to field.name, [@village, field]
+      %small #{field.user}

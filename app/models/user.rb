@@ -18,4 +18,8 @@ class User < ActiveRecord::Base
 
   has_many :fields, :dependent => :destroy
 
+  def to_s
+    login
+  end
+
 end
