@@ -4,5 +4,7 @@
   - 32.times do |i|
     %tr
       %td #{i+1}.
-      %td= Forgery(:name).full_name
+      %td
+        = Forgery(:name).full_name
+        %small (#{Forgery(:internet).email_address})
       %td= 32-i

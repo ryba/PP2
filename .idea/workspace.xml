@@ -50,10 +50,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.haml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="show.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/ranks/show.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="17" selection-start="65" selection-end="65" vertical-scroll-proportion="0.14340344">
+            <state line="8" column="52" selection-start="163" selection-end="163" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -86,10 +86,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.haml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="application.html.haml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="44" selection-start="449" selection-end="449" vertical-scroll-proportion="0.0">
+            <state line="17" column="64" selection-start="416" selection-end="416" vertical-scroll-proportion="0.48757172">
               <folding />
             </state>
           </provider>
@@ -136,9 +136,9 @@
         <option value="$PROJECT_DIR$/app/views/welcome/index.html.haml" />
         <option value="$PROJECT_DIR$/app/controllers/markets_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/markets/show.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/ranks/show.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
       </list>
     </option>
   </component>
@@ -787,13 +787,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="44" selection-start="449" selection-end="449" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="10" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0">
@@ -803,7 +796,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/ranks/show.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="17" selection-start="65" selection-end="65" vertical-scroll-proportion="0.14340344">
+        <state line="8" column="52" selection-start="163" selection-end="163" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="64" selection-start="416" selection-end="416" vertical-scroll-proportion="0.48757172">
           <folding />
         </state>
       </provider>
